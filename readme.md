@@ -19,4 +19,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 import lib.shared.file1
 ['Hello', 'Server', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__']
 quit()
-````
+```
+
+# Solution
+Run the file as a module like:
+```bash
+python -m lib.shared.file1
+```
+
+[From Stackoverflow](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time)
